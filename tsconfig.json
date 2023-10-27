@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/apolloServer/route.js", "src/app/page.jsx", "src/app/layout.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/apolloServer/route.ts", "src/app/page.tsx", "src/app/layout.tsx", "src/helper/db.js", "src/app/claimtherapist/page.jsx", "src/app/claimtherapist/home.jsx", "src/component/navbar2.jsx"],
   "exclude": ["node_modules"]
 }
